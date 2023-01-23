@@ -1,0 +1,91 @@
+.App_div6{
+    padding:4rem 6rem 4rem 6rem;
+    position: relative;
+}
+
+.background_darkgray{
+    background-color: rgb(220, 222, 226);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    z-index: -30;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+    color: rgb(85, 85, 85);
+    font-weight: inherit;
+    font-family: 'Heebo', sans-serif;
+}
+
+.imgetxt{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(204, 197, 189);
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/*Responsividade Mobile*/
+@media (max-width:425px){
+    .App_div6{
+        padding: 1.5rem;
+
+    }
+
+    .imgetxt{
+        padding: 1rem 0,75rem 1rem 0.75rem;
+        gap: 1.5rem;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .App_div6 h3{
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        margin: 0;
+        font-weight: inherit;
+        color: rgb(85, 85, 85);
+        margin-bottom: 3rem;
+    }
+
+
+}
+
+/*Responsividade IPad Mini/Air*/
+@media (min-width:760px) and (max-width:920px){
+    .imgetxt{
+        flex-direction: column;
+    }
+    
+    .App_div6 h3{
+        font-weight: 400;
+        padding-bottom: 6%;
+    }
+
+}

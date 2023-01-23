@@ -1,0 +1,37 @@
+
+.logo{
+    padding-left: 6rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    width: 150px;
+}
+
+.logomobile{
+    display: none;
+}
+
+.div_header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+
+/*Responsividade Mobile*/
+@media (max-width:425px){
+    .div_header{
+        padding:1.25rem 2rem 1.25rem 2rem;
+    }
+    
+    
+    .logomobile{
+        display: block;
+        max-width: 100%;
+        width: 40px;
+        height: auto;
+    }
+
+    .logo{
+        display: none;
+    }
+}

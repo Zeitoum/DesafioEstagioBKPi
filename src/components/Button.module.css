@@ -1,0 +1,40 @@
+ .App_button{
+     /* display: flex; */
+     /* width: 21.5vh; */
+} 
+
+
+.App_button{
+    width: 195px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    border: solid;
+    border-color: rgb(48, 77, 128);
+    border-radius: 0.75rem;
+    border-width: 1px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Heebo',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    background-color: rgb(48, 77, 128);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .25s;
+}
+
+a:hover{
+    background-color: rgb(68, 107, 173);
+}
+
+
+@media (max-width:450px){
+    a{
+        margin: 0 auto;
+    }
+}
+
+
