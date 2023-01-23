@@ -1,9 +1,3 @@
- .App_button{
-     /* display: flex; */
-     /* width: 21.5vh; */
-} 
-
-
 .App_button{
     width: 195px;
     cursor: pointer;
