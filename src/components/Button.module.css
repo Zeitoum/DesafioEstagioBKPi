@@ -32,9 +32,9 @@ a:hover{
 
 
 @media (max-width:450px){
-    a{
+     a{
         margin: 0 auto;
-    }
+    } 
 }
 
 

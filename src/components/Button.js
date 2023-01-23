@@ -1,9 +1,9 @@
 import styles from "../components/Button.module.css"
 
 
-function Button(){
+function Button(props){
     return(
-        <a className={styles.App_button} href="https://bit.ly/contabioma" target="_blank"  rel="noreferrer">
+        <a className={styles.App_button} style={props.variant &&} href="https://bit.ly/contabioma" target="_blank"  rel="noreferrer">
             Falar com um consultor
         </a>
     )
