@@ -3,9 +3,6 @@ import PropTypes from 'prop-types'
 import styles from '../components/ComponentDiv5.module.css'
 import Button from "../components/Button";
 function ComponentDiv5({frase, frase2}){
-    function myEvent(){
-        console.log('Opa clicou!')
-    }
     return(
         <div className={styles.App_div5}>
             <div className={styles.title}>
