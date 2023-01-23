@@ -13,17 +13,17 @@ function Footer({word, word2, word3, word4, word5}){
                 <div className={styles.infos1}>
                     <h3 >{word}</h3>
                     <div className={styles.infos1_paragraphers}>
-                        <a className={styles.links} href="https://biomainvestimentos.com/" target="_blank">
+                        <a className={styles.links} href="https://biomainvestimentos.com/" target="_blank" rel="norefferer">
                             <p >{word2}</p>
                         </a>
-                        <a className={styles.links} href="https://bit.ly/contabioma" target="_blank">
+                        <a className={styles.links} href="https://bit.ly/contabioma" target="_blank" rel="norefferer">
                             <p >{word3}</p>
                         </a>
                     </div>
                 </div>
                 <div className={styles.infos2}>
                     <h3 >{word4}</h3>
-                    <a className={styles.links} href="href=https://bit.ly/contabioma" target="_blank">
+                    <a className={styles.links} href="href=https://bit.ly/contabioma" target="_blank" rel="norefferer">
                         <p >{word5}</p>
                     </a>
                 </div>
