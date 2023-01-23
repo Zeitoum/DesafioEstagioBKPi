@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3038a98b.css",
+    "main.js": "/static/js/main.8b3a07e6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/biomaVideo.mp4": "/static/media/biomaVideo.f8ed69d87c094d263308.mp4",
+    "static/media/MainBackground.png": "/static/media/MainBackground.1ab19232f7b7558762ef.png",
+    "static/media/biomaMain.png": "/static/media/biomaMain.40eeb02cc8f6e908e5f6.png",
+    "static/media/mainBackMobile.png": "/static/media/mainBackMobile.1e1b380e0a21987bf288.png",
+    "static/media/carteira.jpeg": "/static/media/carteira.90f314a3f3fa6b064fc5.jpeg",
+    "static/media/plant.png": "/static/media/plant.0712a529d1f1385ceacc.png",
+    "static/media/logoCompleto.svg": "/static/media/logoCompleto.8eac9f5fc011e7f378cf4f3a745f59d7.svg",
+    "static/media/logoBioma.svg": "/static/media/logoBioma.a7cd924620205df4a133947deed41abf.svg",
+    "index.html": "/index.html",
+    "main.3038a98b.css.map": "/static/css/main.3038a98b.css.map",
+    "main.8b3a07e6.js.map": "/static/js/main.8b3a07e6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3038a98b.css",
+    "static/js/main.8b3a07e6.js"
+  ]
+}
