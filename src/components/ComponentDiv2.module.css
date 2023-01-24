@@ -63,7 +63,6 @@
     .imagem{
         width: 100%;
         flex-direction: column;
-        /* height: 40vh; */
     }
 
     .imagem img{
@@ -129,11 +128,6 @@
         margin-top: 40px;
         
     }
-
-    /* .button_mobile a{
-        margin: 0 auto;
-    } */
-
     
 }
 

@@ -14,7 +14,6 @@ function ComponentDiv5({frase, frase2}){
                 </div>
             </div>
             <div className={styles.imagem}>
-                {/* <div className={styles.circle}></div>  */}
                 <img src={carteiraimg} alt="Carteira"  />
             </div>
         </div>
