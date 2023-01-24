@@ -20,7 +20,7 @@
     transition-duration: .25s;
 }
 
-a:hover{
+.App_button:hover{
     background-color: rgb(68, 107, 173);
 }
 

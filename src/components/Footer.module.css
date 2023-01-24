@@ -47,6 +47,13 @@ p{
     transform: scale(1.05);
 }
 
+.infos2_paragraphers{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    row-gap: 1rem;
+}
+
+
 .foot{
     background-color: rgb(206, 207, 210);
     border-bottom-width: 1px ;
@@ -73,6 +80,7 @@ p{
 
 .cursor_hover:hover{
     transform: scale(1.05);
+    color: inherit;
 }
 
 
@@ -93,6 +101,10 @@ p{
     .infos1_paragraphers{
         grid-template-columns: repeat(1,minmax(0,1fr));
         row-gap: 0.25rem;
+    }
+
+    .infos2_paragraphers{
+        display: block;
     }
 
     .infos1_paragraphers a{

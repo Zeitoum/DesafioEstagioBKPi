@@ -23,9 +23,11 @@ function Footer({word, word2, word3, word4, word5}){
                 </div>
                 <div className={styles.infos2}>
                     <h3 >{word4}</h3>
-                    <a className={styles.links} href="href=https://bit.ly/contabioma" target="_blank" rel="norefferer">
-                        <p >{word5}</p>
-                    </a>
+                    <div className={styles.infos2_paragraphers}>
+                        <a className={styles.links} href="href=https://bit.ly/contabioma" target="_blank" rel="norefferer">
+                            <p >{word5}</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             {/*Icones e logo BIOMA*/}
